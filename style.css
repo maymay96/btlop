@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Barlow', sans-serif;
-    background: linear-gradient(135deg, #9ed9f7, #e0e0e0);
+    background: linear-gradient(135deg, #f7f7f7, #6ba7da);
     color: #333;
     line-height: 1.6;
 }
@@ -155,7 +155,7 @@ body {
 
 .tertiary-text > p:last-child {
     font-weight: light;
-    color: rgb(237, 196, 196);
+    color: rgb(157, 165, 235);
 }
 
 .tertiary > div > div {
@@ -194,7 +194,7 @@ body {
 
 .images img:hover {
     transform: scale(1.1) rotate(2deg);
-    box-shadow: 0 8px 30px rgba(154, 242, 254, 0.5);
+    box-shadow: 0 8px 30px rgba(77, 175, 187, 0.5);
 }
 
 .quaternaryContent {
@@ -214,13 +214,13 @@ body {
 
 .title:hover {
     color: #c5f2f5;
-    text-shadow: 2px 2px 8px rgba(0, 123, 255, 0.3);
+    text-shadow: 2px 2px 8px rgba(60, 117, 179, 0.3);
 }
 
 .text {
     font-size: 18px;
     line-height: 1.6;
-    color: #555;
+    color: #555555;
     margin-bottom: 20px;
 }
 
@@ -247,7 +247,7 @@ body {
 .stat-item p {
     font-size: 0.8em;
     text-align: start;
-    color: #999;
+    color: #1b181f;
 }
 
 .footer {
@@ -306,7 +306,7 @@ body {
 .multicolor-shadow {
     font-size: 3rem;
     font-weight: bold;
-    color: #fff; /* Base color of the text */
+    color: #d2e4ba; /* Base color of the text */
     text-shadow:
         2px 2px 0 rgba(255, 0, 0, 0.7), /* Red shadow */
         4px 4px 0 rgba(0, 255, 0, 0.7), /* Green shadow */
@@ -315,7 +315,7 @@ body {
         10px 10px 0 rgba(255, 0, 255, 0.7); /* Magenta shadow */
 }
 .navbar {
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    background-color: rgba(124, 134, 225, 0.9); /* Semi-transparent background */
     padding: 10px 20px; /* Padding around the navbar */
     position: fixed; /* Fixed position at the top */
     width: 100%; /* Full width */
@@ -346,11 +346,38 @@ body {
 
 .nav-links a {
     text-decoration: none; /* Remove underline */
-    color: #333; /* Link color */
+    color: #65d6ae; /* Link color */
     font-weight: 500; /* Medium font weight */
     transition: color 0.3s ease; /* Smooth color transition */
 }
 
 .nav-links a:hover {
-    color: #ff6f61; /* Change color on hover */
+    color: #80bee1; /* Change color on hover */
+}
+.footer-nav {
+    margin-top: 20px; /* Space above the footer nav */
+    text-align: center; /* Center the footer links */
+}
+
+.footer-links {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center links */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.footer-links li {
+    margin: 0 15px; /* Space between links */
+}
+
+.footer-links a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Link color */
+    font-weight: 500; /* Medium font weight */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.footer-links a:hover {
+    color: #ea8bed; /* Change color on hover */
 }
